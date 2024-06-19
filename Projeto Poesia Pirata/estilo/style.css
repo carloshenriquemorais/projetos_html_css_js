@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.cdnfonts.com/css/kings-and-pirates');
+@import url('https://fonts.cdnfonts.com/css/briasco-rustic');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'kings and pirates', sans-serif;
+    --fonte3: 'Briasco Rustic', sans-serif;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--fonte2);
+
+}
+
+header {
+    font-size: 1.7vw;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    font-weight: bold;
+    font-size: 1.7vw;
+    font-family: var(--fonte3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+section > p {
+    padding-bottom: 1em;
+}
+section.normal {
+    background-color: #ffffff;
+    color: #000000;
+}
+section.imagem {
+    background-color: #464646;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px #ffffff75;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #00000060;
+    text-shadow: 2px 2px 0px #000000;
+}
+section#img1 {
+    background-image: url('../imagens/backgroundpirata01.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    
+}
+section#img2 {
+    background-image: url('../imagens/backgroundpirata02.jpg');
+    background-position: right bottom;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    font-family: var(--fonte1);
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
