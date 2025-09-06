@@ -4,8 +4,6 @@
 
 # Bem-vindo(a) ao **Meus Projetos** de HTML5, CSS3 e JavaScript!
 
-===
-
 # 📁 Projetos HTML, CSS e JavaScript
 
 Bem-vindo(a) ao meu repositório de projetos desenvolvidos com as tecnologias fundamentais da web: **HTML5**, **CSS3** e **JavaScript**. Aqui você encontrará uma coleção de páginas e miniaplicações criadas para praticar, experimentar e evoluir no desenvolvimento front-end.
