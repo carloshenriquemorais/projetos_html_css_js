@@ -67,7 +67,4 @@ Abra o arquivo `.html` com seu navegador favorito e explore!
 
 ## 📬 Contato
 
-Se quiser trocar uma ideia ou acompanhar meus próximos projetos:
-
-- GitHub: [@carloshenriquemorais](https://github.com/carloshenriquemorais)
 - Email: carlosmorais932@gmail.com
